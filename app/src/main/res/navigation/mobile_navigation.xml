@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.a2solution.test.ui.home.HomeFragment"
+        android:label=""
+        tools:layout="@layout/fragment_home"
+        />
+
+    <fragment
+        android:id="@+id/navigation_order"
+        android:name="com.a2solution.test.ui.dashboard.OrderFragment"
+        android:label="@string/title_order"
+        tools:layout="@layout/fragment_order" />
+
+    <fragment
+        android:id="@+id/navigation_new_orders"
+        android:name="com.a2solution.test.ui.notifications.NewOrderFragment"
+        android:label="@string/title_notification"
+        tools:layout="@layout/fragment_new_orders" />
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.a2solution.test.ui.notifications.NewOrderFragment"
+        android:label="@string/title_notification"
+        tools:layout="@layout/fragment_notification" />
+
+    <fragment
+        android:id="@+id/navigation_account"
+        android:name="com.a2solution.test.ui.notifications.NewOrderFragment"
+        android:label="@string/title_notification"
+        tools:layout="@layout/fragment_profile" />
+</navigation>

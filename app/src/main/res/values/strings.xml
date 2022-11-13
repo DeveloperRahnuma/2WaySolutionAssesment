@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">A2Solution Test</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_order">Orders</string>
+    <string name="title_new_order">New Orders</string>
+    <string name="title_notification">Notification</string>
+    <string name="title_account">Account</string>
+    <string name="more_menu">More Menu</string>
+</resources>
