@@ -6,7 +6,7 @@
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable/arrow_right_black.xml" value="0.17" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable/arrow_right_white.xml" value="0.17" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
-        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/activity_main.xml" value="0.18" />
+        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/activity_main.xml" value="0.15775972637879435" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_dashboard.xml" value="0.1921875" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_home.xml" value="0.10807291666666667" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_notification.xml" value="0.144140625" />
@@ -27,7 +27,7 @@
   <component name="VisualizationToolProject">
     <option name="state">
       <ProjectState>
-        <option name="scale" value="0.11" />
+        <option name="scale" value="0.1" />
       </ProjectState>
     </option>
   </component>
