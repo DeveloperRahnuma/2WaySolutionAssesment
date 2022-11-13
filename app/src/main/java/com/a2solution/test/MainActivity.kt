@@ -41,68 +41,29 @@ class MainActivity : AppCompatActivity() {
         setupActionBarWithNavController(navController, appBarConfiguration)
         navView.setupWithNavController(navController)
 
-        binding.floatingButton.setOnClickListener {
-            setaddNewOrderActive()
+        binding.centerButton.setOnClickListener {
+//            setaddNewOrderActive()
         }
 
-//        binding.bottomNavigation.setOnItemSelectedListener {menuItem ->
-//            when (menuItem.itemId) {
-//                R.id.navigation_home -> {
-//                    // Write your code here
-//                    setHomeActive(menuItem)
-//                    setaddNewOrderInActive()
-//                }
-//                R.id.navigation_order-> {
-//                    // Write your code here
-//                    setOrderActive(menuItem)
-//                    setaddNewOrderInActive()
-//                }
-//                R.id.navigation_new_orders-> {
-//                    // Write your code here
-//                    setaddNewOrderActive()
-//                }
-//                R.id.navigation_notifications-> {
-//                    // Write your code here
-//                    setNotiActive(menuItem)
-//                    setaddNewOrderInActive()
-//                }
-//                R.id.navigation_account-> {
-//                    // Write your code here
-//                    setProfileActive(menuItem)
-//                    setaddNewOrderInActive()
-//                }
-//            }
-//            return@setOnItemSelectedListener true
-//        }
+        binding.bottomNavigation.setOnItemSelectedListener {menuItem ->
+//            setaddNewOrderInActive()
+            return@setOnItemSelectedListener true
+        }
 
     }
 
-    fun setHomeActive(item : MenuItem){
-        item.setIcon(R.drawable.home_selected)
-    }
 
-    fun setHomeInActive(item : MenuItem){
-        item.setIcon(R.drawable.home_unselected)
-    }
-
-    fun setOrderActive(item : MenuItem){
-        item.setIcon(R.drawable.order_selected)
-    }
-
-    fun setOrderInActive(item : MenuItem){
-        item.setIcon(R.drawable.order_unselected)
-    }
 
     @SuppressLint("ResourceAsColor")
     fun setaddNewOrderActive(){
-        binding.floatingButton.setImageResource(R.drawable.addnote_selected)
-        binding.floatingButton.rippleColor = R.color.dark_button_color
+        binding.centerButton.setCardBackgroundColor(R.color.dark_button_color)
+        binding.centerButtonIcon.setImageResource(R.drawable.addnote_selected)
     }
 
     @SuppressLint("ResourceAsColor")
     fun setaddNewOrderInActive(){
-        binding.floatingButton.setImageResource(R.drawable.addnoteunselected)
-        binding.floatingButton.rippleColor = R.color.dark_button_color
+        binding.centerButton.setCardBackgroundColor(R.color.light_button_color)
+        binding.centerButtonIcon.setImageResource(R.drawable.addnoteunselected)
     }
 
     fun setNotiActive(item : MenuItem){

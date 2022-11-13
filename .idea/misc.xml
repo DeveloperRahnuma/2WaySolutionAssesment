@@ -3,17 +3,21 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable-v24/notification_selector.xml" value="0.1045" />
+        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable-v24/order_selector.xml" value="0.1045" />
+        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable-v24/profile_selector.xml" value="0.1045" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable/arrow_right_black.xml" value="0.17" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable/arrow_right_white.xml" value="0.17" />
+        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable/home_selector.xml" value="0.1045" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/drawable/ic_notifications_black_24dp.xml" value="0.1" />
-        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/activity_main.xml" value="0.15775972637879435" />
+        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/activity_main.xml" value="0.1" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_dashboard.xml" value="0.1921875" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_home.xml" value="0.10807291666666667" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_notification.xml" value="0.144140625" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_notifications.xml" value="0.144140625" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_order.xml" value="0.144140625" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/layout/fragment_profile.xml" value="0.144140625" />
-        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/menu/bottom_nav_menu.xml" value="0.12121212121212122" />
+        <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/menu/bottom_nav_menu.xml" value="0.1" />
         <entry key="..\:/Personal Work/Assesment/A2Solution Kerla/app/src/main/res/menu/search_menu.xml" value="0.18" />
       </map>
     </option>

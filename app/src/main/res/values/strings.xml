@@ -7,4 +7,6 @@
     <string name="title_notification">Notification</string>
     <string name="title_account">Account</string>
     <string name="more_menu">More Menu</string>
+
+    <string name="addOrder">New Order</string>
 </resources>
