@@ -1,7 +1,7 @@
 # A2Solution Android Developer Assesment
 Android Studio project on kotlin + XML ( jetpack compose support will added later )
 
-# Ui Support for different size android development 
+# Ui Support for different size android mobile and tablet 
 
 ## Support for different type of mobile size
 ![2way1](https://user-images.githubusercontent.com/31402470/201517580-454b9653-5ecf-4e6d-8d43-ca480a439193.PNG)
